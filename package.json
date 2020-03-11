@@ -1,8 +1,8 @@
 {
-  "name": "barbershop-training",
+  "name": "cat-energy",
   "version": "2.0.0",
   "private": true,
-  "description": "Барбершоп тренировка",
+  "description": "Кэт энерджи",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.x",
     "autoprefixer": "^9.5.1",
