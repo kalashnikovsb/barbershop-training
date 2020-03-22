@@ -31,7 +31,6 @@
     "build": "gulp build",
     "start": "gulp start",
     "images": "gulp images",
-
     "webp": "gulp webp"
   },
   "browserslist": [
