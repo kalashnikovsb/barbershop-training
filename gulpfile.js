@@ -44,7 +44,7 @@ gulp.task("images", function () {
   return gulp.src("source/img/**/*.{png,jpg,svg}")
     .pipe(imagemin([
       imagemin.optipng({optimizationLevel: 3}),
-      imagemin.mozjpeg({quality: 75, progressive: true}),
+      imagemin.mozjpeg({quality: 80, progressive: true}),
       imagemin.svgo()
     ]))
     .pipe(gulp.dest("source/img"));
@@ -52,7 +52,7 @@ gulp.task("images", function () {
 
 gulp.task("webp", function () {
   return gulp.src("source/img/**/*.{png,jpg}")
-    .pipe(webp({quality: 75}))
+    .pipe(webp({quality: 80}))
     .pipe(gulp.dest("source/img"));
 });
 
