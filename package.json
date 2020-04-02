@@ -1,8 +1,8 @@
 {
-  "name": "cat-energy",
+  "name": "pink",
   "version": "2.0.0",
   "private": true,
-  "description": "Кэт энерджи",
+  "description": "Пинк",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "^1.0.0",
     "autoprefixer": "^9.7.5",
